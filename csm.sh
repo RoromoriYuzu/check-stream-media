@@ -19,7 +19,7 @@ while getopts ":I:M:L:" optname; do
     case "$optname" in
     "I")
         iface="$OPTARG"
-        useNIC="--interface $iface"
+        useNIC="--socks5-hostname $iface"
         ;;
     "M")
         if [[ "$OPTARG" == "4" ]]; then
