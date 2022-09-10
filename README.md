@@ -9,10 +9,6 @@ wget https://raw.githubusercontent.com/RoromoriYuzu/check-stream-media/main/csm.
 bash csm.sh
 ```
 
-````bash
-bash csm.sh
-````
-
 ##### 只检测IPv4结果：
 ````bash
 bash csm.sh -M 4
